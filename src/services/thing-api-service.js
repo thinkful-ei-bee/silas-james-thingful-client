@@ -4,7 +4,7 @@ import config from '../config'
 const ThingApiService = {
   getThings() {
     return fetch(`${config.API_ENDPOINT}/things`, {
-      headers: {       
+      headers: {
       },
     })
       .then(res =>
